@@ -1,79 +1,74 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native - My Store App
+- The purpose of this application is to enable the personnel working in the same workplace to divide the work among them and to communicate with each other.
+- In my project [Mocki](https://money.io/fake-json-api ) I created the APIs from the site.
 
-# Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+## Pages
+- <a href ='#Login Page'> Login Page </a>
+- <a href ='#Products Page'> Panel Page </a>
+- <a href ='#Detail Page'> Job Pool Page </a>
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Features
+- Made with Redux, Custom Hook, Rest API...
 
-```bash
-# using npm
-npm start
+<br>
 
-# OR using Yarn
-yarn start
-```
+### Login Page
+- The login screen that allows employees to log in to the application.
 
-## Step 2: Start your Application
+<p align="center">
+<img alt="Light" src="./project_screenshots/image-2.png" width="350">
+</p>
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+### Panel Page
+- This page is the main page of the application and there is general information about the tasks performed here.
 
-### For Android
+<p align="center">
+  <img alt="Light" src="./project_screenshots/image-3.png" width="350">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./project_screenshots/image-10.png" width="350">
 
-```bash
-# using npm
-npm run android
+</p>
 
-# OR using Yarn
-yarn android
-```
+### Job Pool Page
+- The screen where the assigned employees are listed against each task.
+- Each card contains the employee who undertook the task and the date on which he received the task.
 
-### For iOS
+<p align="center">
+  <img alt="Light" src="./project_screenshots/image-4.png" width="350">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./project_screenshots/image-5.png" width="350">
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./project_screenshots/image-6.png" width="350">
+</p>
 
-```bash
-# using npm
-npm run ios
+### My Job Pool
+- The screen where the user can see the tasks assigned to him.
 
-# OR using Yarn
-yarn ios
-```
+<p align="center">
+  <img alt="Light"  src="./project_screenshots/image-7.png" width="350">
+</p>
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### Job Detail Page
+- A screen where employees can talk about their work details with each other.
+- Messages can also be sent to the employee's email address.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+<p align="center">
+  <img alt="Light"   src="./project_screenshots/image-8.png" width="350">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark"   src="./project_screenshots/image-9.png" width="350">
 
-## Step 3: Modifying your App
+</p>
 
-Now that you have successfully run the app, let's modify it.
+### New Job Page
+- When a new request is requested to be created, it can be added from this page.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+<p align="center">
+  <img alt="Light" src="./project_screenshots/image-11.png" width="350">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./project_screenshots/image-12.png" width="350">
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+</p>
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
