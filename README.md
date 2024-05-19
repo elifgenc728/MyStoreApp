@@ -30,7 +30,7 @@
 - Users can see the list of products they want to buy from this screen.
   
 <p align="center">
-<img alt="Light" src="./assets/project_screenshots/shop2.png" width="350">
+<img alt="Light" src="./src/assets/project_screenshots/shop2.png" width="350">
 </p>
 
 
